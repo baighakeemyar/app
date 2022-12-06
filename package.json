@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "First node web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baighakeemyar/app.git"
+  },
+  "author": "baighakeemyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baighakeemyar/app/issues"
+  },
+  "homepage": "https://github.com/baighakeemyar/app#readme"
+}
