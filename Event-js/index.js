@@ -3,11 +3,11 @@ var eventEmitter = new events.EventEmitter();
 
 //Create an event handler:
 var myEventHandler = function () {
-  console.log('I hear a scream!');
+  console.log('I am feeling hungry!');
 }
 
 //Assign the event handler to an event:
-eventEmitter.on('scream', myEventHandler);
+eventEmitter.on('hungry', myEventHandler);
 
-//Fire the 'scream' event:
-eventEmitter.emit('scream');
+//Fire the 'hungry' event:
+eventEmitter.emit('hungry');

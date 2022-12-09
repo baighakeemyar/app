@@ -1,0 +1,9 @@
+synchronous function: It is a function where nested functions are executed in a series. For example we have 3 function nested and once we
+execute them, they will start in series one after another. No matter if the functionis ready or not it will wait for the response then it will
+move to the other function.
+asynchronous function: It is a parallel execution of functions. No matter if a function is ready to be executed or not it will call a function
+which is ready, it will not wait for the first function to respond.
+
+A callback is a function called when the task finishes, and a callback function allows other code to run in the meantime. 
+Using the Callback concept, Node.js can process many requests without waiting for any function to return the result, 
+making Node.js highly scalable.
